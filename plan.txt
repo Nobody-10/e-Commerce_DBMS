@@ -1,0 +1,11 @@
+Buyer - Name, Address(Multi-Valued[Door No, Area, Landmark, State, Country, Pin Code]), username, password, Phone Number.
+
+Seller - Name, Address, SellerID, username, password, Phone Number.
+
+Item - ItemID, Name, Details, Rating, MRP, Category Name, Image1, Image2, Image3.
+
+Cart - BuyerID, ItemID, Seller ID, Quantity.
+
+ItemsTable - ItemID, SellerID, Price, Stock.
+
+Orders - DeliveryStatus, DeliveryDate, DateOrdered, OrderID, ItemID, BuyerID, SellerID, Price, Quantity, PaymentMode, ShippingAddress.
