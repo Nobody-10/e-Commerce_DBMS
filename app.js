@@ -9,6 +9,8 @@ const seller_routes = require('./routes/seller_routes')
 const customer_routes = require('./routes/customer_routes')
 var bodyParser = require('body-parser')
 
+
+
 //let connection = mysql.createConnection(con)
 // app.use(con)
 app.use(bodyParser.urlencoded({extended:false}));
